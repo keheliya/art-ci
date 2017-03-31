@@ -10,3 +10,7 @@ script:
   
 after_script:
   - echo after_script
+  
+deploy:
+  provider: awesome-experimental-provider
+  edge: true
