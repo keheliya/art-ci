@@ -5,5 +5,5 @@ node_js:
   - 0.6
   - 0.8
   
-deploy:
-  - echo deploy
+after_script:
+  - echo after_script
