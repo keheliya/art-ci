@@ -4,6 +4,9 @@ language: node_js
 node_js:
   - 0.6
   - 0.8
+
+script:
+  - echo script
   
 after_script:
   - echo after_script
