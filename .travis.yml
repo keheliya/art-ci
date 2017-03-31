@@ -12,10 +12,11 @@ after_script:
   - echo after_script
   
 deploy:
-  provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
-  file: "FILE TO UPLOAD"
+  provider: script
   skip_cleanup: true
+  script: echo deploy
+  on:
+    branch: master
 
 after_deploy:
   - echo after_deploy
