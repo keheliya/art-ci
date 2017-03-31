@@ -12,5 +12,4 @@ after_script:
   - echo after_script
   
 deploy:
-  provider: awesome-experimental-provider
-  edge: true
+	skip_cleanup: true
